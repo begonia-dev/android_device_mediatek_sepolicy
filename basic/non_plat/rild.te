@@ -146,3 +146,9 @@ set_prop(rild, telephony_prop)
 get_prop(rild, logmuch_prop)
 get_prop(rild, vendor_system_prop)
 allow rild nvram_agent_binder_hwservice:hwservice_manager find;
+
+# SMS
+set_prop(rild, sms_md_ready_prop)
+
+# HVOLTE
+set_prop(rild, mtk_hvolte_indicator_prop)
