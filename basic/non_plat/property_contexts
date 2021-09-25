@@ -408,6 +408,7 @@ init.svc.dplanner-2-0            u:object_r:vendor_dplanner_prop:s0
 
 # IMS
 vendor.volte_md_status          u:object_r:md_status_prop:s0
+persist.vendor.mtk_hvolte_indicator u:object_r:mtk_hvolte_indicator_prop:s0
 
 # Media
 mtk.vendor.omx.core.log          u:object_r:omx_core_prop:s0
@@ -442,3 +443,6 @@ persist.vendor.setWFDInfo.R2             u:object_r:wfd_sys_debug_prop:s0
 # Wi-Fi
 vendor.wlan.firmware.       u:object_r:wlan_fw_prop:s0
 vendor.wlan.driver.         u:object_r:wlan_fw_prop:s0
+
+# SMS
+vendor.sms.md.ready         u:object_r:sms_md_ready_prop:s0

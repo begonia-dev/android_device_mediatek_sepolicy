@@ -362,3 +362,9 @@ type factor_prop, property_type;
 
 # Wi-Fi
 type wlan_fw_prop, property_type;
+
+# SMS
+type sms_md_ready_prop, property_type;
+
+# HVOLTE
+type mtk_hvolte_indicator_prop, property_type;
