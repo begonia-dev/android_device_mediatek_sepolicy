@@ -298,3 +298,6 @@ type ro_vendor_mtk_microtrust_tee_prop, property_type, mtk_core_property_type;
 type mtk_acs_version_prop, property_type, extended_core_property_type;
 type mtk_acs_url_prop, property_type, extended_core_property_type;
 type mtk_acs_support_prop, property_type, extended_core_property_type;
+
+#=============NWK property============
+type vendor_mtk_nwk_opt_prop, property_type, mtk_core_property_type;
