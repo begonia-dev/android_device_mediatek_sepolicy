@@ -1,4 +1,7 @@
+# Camera
 vendor.mediatek.hardware.camera.advcam::IAdvCamControl u:object_r:hal_camera_hwservice:s0
+
+# Wifi Offload
 vendor.mediatek.hardware.wfo::IWifiOffload u:object_r:mtk_hal_wfo_hwservice:s0
 
 # DRM Key Installation HIDL
