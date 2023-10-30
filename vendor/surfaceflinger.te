@@ -159,7 +159,7 @@ hal_client_domain(surfaceflinger, hal_dfps)
 
 # TODO:: MTK need to remove later
 #not_full_treble(`
-#    allow {domain -init -isolated_app -webview_zygote -hal_configstore_server -vendor_init} fpspolicy-server_service:service_manager find;
+#    allow {domain -init -isolated_app_all -webview_zygote -hal_configstore_server -vendor_init} fpspolicy-server_service:service_manager find;
 #')
 allow surfaceflinger mtk_dfrc_device:chr_file rw_file_perms;
 
